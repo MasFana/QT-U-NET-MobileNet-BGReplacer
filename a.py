@@ -211,7 +211,7 @@ class VideoThread(QThread):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("AI Background Replacer v2.1 (Stable UI)")
+        self.setWindowTitle("U-NET MobileNet Background Replacer")
         self.resize(1000, 750)
         self.setStyleSheet(
             "QMainWindow { background-color: #222; color: white; } QLabel { color: white; }"
